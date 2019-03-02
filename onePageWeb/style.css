@@ -1,0 +1,93 @@
+body{
+	color:white;
+	width:100%;
+	font-family: 'Cinzel', serif;
+}
+
+h1{
+	text-align: center;
+	background-color:#E98B2A;
+	width:100%;
+	margin:0;
+}
+
+nav{
+	text-align: center;
+	background-color:#E98B2A;
+	position: fixed;
+	width:100%;
+}
+
+nav li{
+	display: inline;
+	padding: 80px;
+}
+
+nav a{
+	color: white;
+}
+
+nav a:hover{
+	color:#9F353A;
+}
+
+#home{
+	background-color:#A96360;
+	height: 645px;
+	padding: 50px;
+}
+
+#about{
+	background-color:#9E7A7A;
+	height: 650px;
+	padding: 50px;
+}
+
+#resume{
+	height: 1250px;
+	background-color:#B19693;
+	padding: 50px;
+}
+
+#contact{
+	background-color:#CC543A;
+	height: 900px;
+	padding: 50px;
+}
+
+#head {
+	height: auto;
+	width:300px;
+	padding: 20px;
+}
+
+.welcome img{
+	width:100%;
+	margin: 0px;
+}
+
+.welcome h3{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	top: 45%;
+	font-size:100px;
+	-webkit-text-fill-color: white;
+  	-webkit-text-stroke-width: 2px;
+ 	-webkit-text-stroke-color: #A96360;
+	width: 75%;
+	text-align:center;
+}
+
+#contact a{
+	color:white;
+}
+
+iframe{
+	width: 100%;
+	height: 700px;
+}
+
+.workpix{
+	width: 400px;
+}
