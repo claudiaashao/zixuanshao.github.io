@@ -1,0 +1,93 @@
+<!-- * Create the general page layout on each page using Bootstrap’s resposive grid layout features
+
+* Use a Bootstrap navigation component 
+
+* Use Bootstrap’s carousel widget, including at least three images
+
+* Incorporate at least one Bootstrap component (such as buttons, glyphs, drop-down menus, etc.) on each page of the site
+
+* Beyond these requirements, feel free to explore Bootstrap and take this project as far as you would like! Sites that demonstrate extra effort and thoughtfulness will be considered for extra credit. In particular, try to customize your website so that it does not look like Bootstrap’s default themes.
+
+* Add this project folder to the main repository connected to Github pages, and push your code so that it is live at username.github.io/bootstrap
+
+* Submit the link to your source code on Github and your link to Github pages on NYU Classes under In-Class Assignment: Bootstrap. -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Home</title>
+  </head>
+  <body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">BUMI</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Locations</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="purchase.html">Purchase</a>
+	      </li>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Plants Guide
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <a class="dropdown-item" href="#">Succulents</a>
+		    <a class="dropdown-item" href="#">Flowers</a>
+		    <a class="dropdown-item" href="#">Trees</a>
+		  </div>
+		</div>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="https://data.whicdn.com/images/308914508/large.png" class="d-block w-100" alt="tropical plant leaves">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="https://66.media.tumblr.com/b39b0cb5dd0757c9b2f7a80db74dc0a5/tumblr_o4cvw0ugMU1r8b31ao1_400.jpg" class="d-block w-100" alt="home plants">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="http://redanorchestra.org/wp-content/uploads/2018/12/room-plants-tumblr-good-health-living-names.jpg" class="d-block w-100" alt="succulents">
+	    </div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
