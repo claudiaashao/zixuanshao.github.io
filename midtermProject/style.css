@@ -1,0 +1,173 @@
+body{
+	color:white;
+	width:100%;
+	font-family: sans-serif;
+}
+
+.home{
+	background-image: url(https://media.giphy.com/media/xP4inNnkYUiFa/giphy.gif);
+}
+
+.just{
+	background-image: url(https://images2.pixlis.com/background-image-checkers-chequered-checkered-squares-seamless-tileable-236az4.png);
+
+}
+
+.sale{
+	background: linear-gradient(#6E75A4, #A28C37)
+}
+
+.shop{
+	background-image: url(https://ak7.picdn.net/shutterstock/videos/1016011177/thumb/1.jpg);
+}
+
+.navbar{
+	background-color: #86A697;
+}
+
+.navbar-brand{
+	color: white;
+	font-size: 30px;
+}
+
+.navbar-brand:hover{
+	color: #CA7A2C;
+	text-decoration: none;
+}
+
+nav{
+	text-align: center;
+	position: fixed;
+	width:100%;
+}
+
+nav li{
+	display: inline;
+	padding: 20px;
+}
+
+.navbar-toggler-icon{
+	color:white;
+}
+
+.nav-link{
+	color: white;
+}
+
+.nav-link:hover{
+	color:#CA7A2C;
+	text-decoration: none;
+}
+
+.form-inline button:hover{
+	background-color: #CA7A2C;
+}
+
+.btn{
+	color:white;
+	background-color: #572A3F;
+	border-color: #572A3F;
+}
+
+.dropdown-menu{
+	min-width: 30rem;
+}
+
+.dropdown button:hover{
+	background-color: #CA7A2C;
+}
+
+.slide{
+	position: relative;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+.carousel{
+	background-image: url(https://i.gifer.com/79pd.gif);
+}
+
+.two{
+	background-image: url(https://static1.squarespace.com/static/514c6ec7e4b0f1fab133877d/t/59e4ff011f318d5dbbc3dab9/1508179717192/bloggif_59e4feebc5194.gif?format=2500w);
+}
+
+.carousel-inner > arousel-item active > img {
+	height: 500px;
+	width: auto! important;
+	margin:0 auto;
+}
+
+.carousel-inner > .carousel-item > img {
+	height: 500px;
+	width: auto! important;
+	margin: 0 auto;
+}
+
+.mb-3{
+	background-color: none;
+	margin:0;
+	padding:20px;
+}
+
+.container{
+	margin-bottom: 100px;
+}
+
+.card{
+	background-color: #2E5C6E;
+	margin: 20px;
+}
+
+.card a{
+	background-color: #2E5C6E;
+}
+
+.card a:hover{
+	background-color:#CA7A2C;
+}
+
+.mb-3 h5{
+	font-size: 40px;
+	padding: 40px;
+	text-align: center;
+}
+
+.mb-3 p{
+	padding: 30px;
+}
+
+.sale strike{
+	color: red;
+}
+
+.modal{
+	background-color: #CA7A2C;
+}
+
+.modal-title{
+	color: black;
+}
+
+.modal-body img{
+	width: 400px;
+	height: auto;
+	align-content: center;
+	margin: 30px;
+}
+
+.footer{
+  position: fixed;
+  bottom:0;
+  padding:20px;
+  width: 100%;
+  text-align: right;
+}
+
+.footer a{
+	color:white;
+}
+
+.footer a:hover{
+	color:#CA7A2C;
+}
+
