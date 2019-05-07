@@ -11,7 +11,7 @@ function feed(event){
 	var x = event.clientX;
 	var y = event.clientY;
 
-	console.log(x)
+	//console.log(x)
 
 	candy.style.left = x + 'px';
 	candy.style.top = y + 'px';

@@ -1,0 +1,345 @@
+body{
+	font-family: Futura;
+	font-style: italic;
+}
+
+.iframehead{
+  position:fixed;
+  height:200px;
+  width:100vw;
+  top:-100px;
+}
+
+.iframeback{
+  position:fixed;
+  height:1000px;
+  width:100vw;
+  top:-100px;
+}
+
+/*home*/
+.navbar{
+  top:12px;
+  background-color: red;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+.navbar-brand:hover{
+  color: #CA7A2C;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: #CA7A2C;
+}
+
+.form-inline{
+  color:white;
+}
+
+.form-control{
+  font-style: italic;
+}
+
+.btn:hover{
+  background-color: aqua;
+}
+
+.btn{
+  border-color: aqua;
+}
+
+.btn-outline-success{
+  color:white;
+  font-style: italic;
+}
+
+.navbar-toggler-icon{
+  color: white;
+}
+
+#timer{
+  margin: 20px;
+  padding: 20px;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+}
+
+.timer-back{
+  background-image: url('http://66.media.tumblr.com/8220d0dbd22691d58e791a2b816bc225/tumblr_n7qrtsE6yM1qby9yzo2_250.gif')
+}
+
+#droptime{
+  margin: 20px;
+  padding: 20px;
+}
+
+#aboutcard {
+  margin: 20px;
+  padding: 20px;
+}
+
+.card-back{
+  background-image: url("https://media.giphy.com/media/r6AbMspm1l8Fa/giphy.gif")
+}
+
+.carousel-inner > .carousel-item > img {
+  height: 460px;
+  width: auto! important;
+  margin:20px;
+}
+
+.card-title{
+  text-align: center;
+  margin-top:60px;
+  font-size: 60px;
+  color: aqua;
+}
+
+.card-text{
+  background-color: white;
+}
+
+.footer li{
+  display: inline;
+  padding: 20px;
+}
+
+.footer{
+  position: fixed;
+  bottom:0;
+  padding:20px;
+  width: 100%;
+  text-align: right;
+}
+
+.footer a{
+  color:aqua;
+}
+
+.footer a:hover{
+  color:#CA7A2C;
+}
+
+
+/*preview*/
+#title{
+	position: fixed;
+	font-size: 30px;
+	color:white;
+  background-color: red;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+#title:hover{
+  color:#CA7A2C;
+  text-decoration: none;
+}
+
+#logo{
+	height:400px;
+	width:auto;
+}
+
+/*horizontal scroll*/
+#container .box {
+  width:100vw;
+  height:100vh;
+  display:inline-block;
+  position:relative;
+}
+
+#container .box > div {
+  width: 100%;
+  position:absolute;
+  line-height:.7;
+  font-weight:bold;
+}
+
+.info{
+  padding:10px;
+  background-color: white;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.info h3{
+  font-size: 20px;
+}
+
+.info p{
+  word-break: break-all;
+  white-space: normal;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+#preview{
+  margin-top: 330px;
+  margin-left: 300px;
+  color: white;
+  font-size:40px;
+}
+
+#more{
+  margin-top: 30%;
+  margin-left: 48%;
+  color: white;
+  font-size:40px;
+  width:140px;
+  height:60px;
+  padding:10px;
+  background-color: red;
+}
+
+#more:hover{
+  cursor: pointer;
+  color: aqua;
+}
+
+.centered-thumbnail{
+  width: 30%;
+  margin-top: 2%;
+  margin-left: 35%;
+}
+
+.centered-thumbnail:hover{
+  width: 35%;
+  margin-left: 32.5%;
+  cursor: pointer;
+}
+
+#container {
+  overflow-y:scroll;
+  overflow-x:hidden;
+  transform: rotate(270deg) translateX(-100%);
+  transform-origin: top left;
+  background-color:red;
+  position:absolute;
+  width:100vh;
+  height:100vw;
+  margin-top: 70px;
+}
+
+#container2 {
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  white-space:nowrap;
+  font-size:0;
+}
+
+.one{
+  background-image: url('img/logo.png');
+  background-size: 1100px auto;
+  color: white;
+}
+
+.two{
+  background-image: url('https://assets.supremenewyork.com/163471/zo/YfemDTmqboA1.jpg');
+}
+
+.three{
+  background-image: url('https://assets.supremenewyork.com/163412/zo/TKHEB1uFDlA.jpg');
+}
+
+.four{
+  background-image: url('https://assets.supremenewyork.com/163933/zo/3UogGSlz2vs.jpg');
+}
+
+.five{
+  background-image: url('https://assets.supremenewyork.com/164222/zo/VuAFKloIAgg.jpg');
+}
+
+.six{
+  background-image: url(https://assets.supremenewyork.com/163433/zo/LK8Aaog3k59.jpg);
+}
+
+.seven{
+  background-image: url(https://assets.supremenewyork.com/164342/zo/PhPo60TyYMY1.jpg);
+}
+
+.eight{
+    background-image: url('https://images.complex.com/complex/images/c_fill,g_center,w_1200/fl_lossy,pg_1,q_auto/fcql5bjv7ehf14gw5c1u/supreme-inferno-exhibit')
+}
+
+/*cursor*/
+.cursor-dot{
+  pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
+}
+
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
+}
+
+.cursor-dot {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+
+.cursor-dot-outline {
+    $size: 40px;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(146, 211, 202, 0.7);
+}
+
+/*stores*/
+.body-stores{
+  background-color: black;
+  color:white;
+}
+
+.store-image{
+  margin-top:80px;
+  display: block;
+  margin-left: 36%;
+  margin-right: auto;
+  width: 30%;
+}
+
+.store-image:hover{
+  width: 45%;
+}
+
+.store-info{
+  font-size: 14px;
+  position:absolute;
+  width: 300px;
+  top: 190px;
+  left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
